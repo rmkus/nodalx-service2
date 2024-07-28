@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-alpine
 WORKDIR /app
 
 # Add the project JAR file to the container
-COPY build/libs/nodalx-service2-1.0.0.jar app.jar
+COPY build/libs/nodalx-service2-1.0.5.jar app.jar
 
 # Run the JAR file
 ENTRYPOINT ["java", "-jar", "app.jar"]

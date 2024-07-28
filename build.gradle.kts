@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.example.nodalx.service2"
-version = "1.0.0"
+version = "1.0.5"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
